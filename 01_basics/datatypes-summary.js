@@ -31,3 +31,23 @@ let myObj = {
  console.log(typeof myFunction);
  console.log(typeof anotherId);
 
+//  =================== memory allocation ===========
+// stak memory ( primitive )
+// heap memory  ( non-primitive)
+
+let name = 'alok';
+
+let newName = name;
+newName = 'aman'
+console.log ( newName);
+console.log(name )
+
+let userOne = {
+   email:'alok@google.com',
+   city:'supaul'
+}
+let userTwo = userOne
+userTwo.city = 'patna '
+
+console.log(userOne);
+console.log(userTwo);
