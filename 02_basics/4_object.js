@@ -55,3 +55,17 @@ console.log(users[1].email)
 
 // console.log(tinderUser.hasOwnProperty('isLogged')); //to check it has property or not
 
+const course = {
+    coursename:'js in hindi',
+    price:'999',
+    courseInstructor:'hitesh'
+}
+// console.log(course.courseInstructor);
+
+const {courseInstructor} = course;
+console.log(courseInstructor);
+// we can also short the console...
+const {courseInstructor:cs} = course;
+console.log(cs);
+
+
