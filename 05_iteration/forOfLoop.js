@@ -28,3 +28,17 @@ console.log(map);
 for(const [key , value ] of map) {
     console.log(key , ':-' , value);
 }
+
+
+// const myObj = {
+//     game1:'NFS',
+//     game2:'spiderman'
+// }
+// for(const game of myObj){ //myObj is not iteratable
+//     console.log(game);
+// }
+
+
+
+
+

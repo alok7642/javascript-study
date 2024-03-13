@@ -48,3 +48,9 @@ else{
 
 // temp > 30 ? console.log("temp is greater " ) : console.log('temp is samller');
 
+if (condition) {
+    
+} else {
+    
+}
+
