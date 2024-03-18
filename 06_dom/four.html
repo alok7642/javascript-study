@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: rgb(221, 209, 174);color:white">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+      const li = document.createElement('li')
+      li.innerHTML =(`${langName}`)
+      document.querySelector('.language').appendChild(li)
+    }
+    addLanguage('java')
+    addLanguage('python')
+
+    function addOptiLang(langName){
+        const li = document.createElement('li');
+        // const addText = document.createTextNode(langName)
+        // li.appendChild(addText)
+        // we can also write these both line like this 
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLang('hindi')
+    addLanguage('English')
+    
+</script>
+</html>
